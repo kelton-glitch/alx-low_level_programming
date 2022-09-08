@@ -12,3 +12,6 @@ Script 5 prints "with proper grammar, but the outcome is a piece of art"
 
 Script 6 prints the size of the types on the computer it is compiled and run in
 
+Script 100 generates the assembly code of a C code and saves it in an output file
+
+Script 101 prints exactly "and that pece od art is useful"  Dora Korpar, 2015-10-19, followed by a new line, to the standard error
