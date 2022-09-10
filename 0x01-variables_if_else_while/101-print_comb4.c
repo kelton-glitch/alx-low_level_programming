@@ -19,7 +19,7 @@
 				if (k > j && j > i)
 				{
 					putchar(i);
-					putchat(j);
+					putchar(j);
 					putchar(k);
 					if (i != 55 || j != 56)
 					{
