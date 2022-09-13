@@ -2,7 +2,7 @@
 
 /**
  * print_sign - detects if a number is positive or negative
- *
+ * @n: input value
  * Return: 0
  */
 
