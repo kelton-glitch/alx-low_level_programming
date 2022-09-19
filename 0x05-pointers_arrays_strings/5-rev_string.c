@@ -12,9 +12,9 @@ void rev_string(char *s)
 	n = 0;
 	while (s[n] != '\0')
 	{
-		i++;
+		n++;
 	}
-	full = i - 1;
+	full = n - 1;
 	half = size / 2;
 	while (half >= 0)
 	{
