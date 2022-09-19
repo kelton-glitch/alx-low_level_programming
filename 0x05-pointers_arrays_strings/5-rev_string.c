@@ -15,13 +15,13 @@ void rev_string(char *s)
 		n++;
 	}
 	full = n - 1;
-	half = size / 2;
+	half = full / 2;
 	while (half >= 0)
 	{
 		first = s[full - half];
 		last = s[half];
 		s[half] = first;
-		s[size - half] = last;
+		s[full - half] = last;
 		half--;
 	}
 
