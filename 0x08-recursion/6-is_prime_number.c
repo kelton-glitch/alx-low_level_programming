@@ -33,10 +33,10 @@ int is_prime_number(int n)
 
 	iterator = 2;
 
-	if (num < 2)
+	if (n < 2)
 		return (0);
 
-	if (num == 2)
+	if (n == 2)
 		return (1);
 
 	return (evaluate_num(n, iterator));
