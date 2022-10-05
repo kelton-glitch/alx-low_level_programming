@@ -60,16 +60,16 @@ char **strtow(char *str)
 				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
-				matrix[k] = tmp - cl
+				matrix[k] = tmp - c;
 					k++;
 				c = 0;
 			}
 		}
 		else if (c++ == 0)
-			start = i
+			start = i;
 	}
 
-	matrix[k] == NULL;
+	matrix[k] = NULL;
 
 	return (matrix);
 }
