@@ -144,7 +144,7 @@ int main(int argc, char *argv[])
 		c++;
 	}
 	print_array(tabres, lenres);
-	fress(tabres);
+	free(tabres);
 	exit(EXIT_SUCCESS);
 	return (0);
 }
