@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <sting.h>
+#include <stdlib.h>
 
 /**
  * struct op - structure of op
