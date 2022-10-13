@@ -2,12 +2,12 @@
 
 /**
  * get_op_func - function pointer that selects the correct function to perform
- * the operation demanded
- * @s: operator given by user
+ * the operation asked by the user
+ * @s: the operator given by the user
  *
- * Return: pointer to a function that corresponds to the pointed operator
+ * Return: pointer to the function that corresponds to the
+ * operator given as a parameter
  */
-
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -18,7 +18,6 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-
 	int i;
 
 	i = 0;
@@ -27,7 +26,6 @@ int (*get_op_func(char *s))(int, int)
 	{
 		if (strcmp(ops[i].op, s) == 0)
 			return (ops[i].f);
-
 		i++;
 	}
 
