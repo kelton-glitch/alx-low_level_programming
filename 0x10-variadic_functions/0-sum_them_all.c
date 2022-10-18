@@ -2,25 +2,28 @@
 
 /**
  * sum_them_all - adds a number
- * @n: param
+ @n: param
  * Return: int
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list valist;
-	unsigned int i;
-	int sum = 0;
+    va_list list;
+    unsigned int i;
+    int sum = 0;
 
-	if (n == 0)
-		return (0);
+    if (n== 0)
+    return (0);
 
-	va_start(valist, n);
+    va_start(list, int);
 
-	for (i = 0; i < n; i++)
-		sum += va_arg(valist, int);
+    for (i = 0; i < n; i++)
+    {
+        sum += va_arg(list, int)
+    }
 
-	va_end(valist);
+    va_end(list);
 
-	return (sum);
-}
+    return (sum);
+
+ }
