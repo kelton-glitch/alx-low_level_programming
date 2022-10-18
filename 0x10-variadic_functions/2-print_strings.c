@@ -2,7 +2,7 @@
 
 /**
  * print_strings - prints string
- * @separator: pinter parameter
+ * @separator: pointer parameter
  * @n: param
  */
 
@@ -21,8 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (str)
 			printf("%s", str);
 		else
-			printf("(null)");
-
+			printf("(nil)");
 
 		if (i < n - 1)
 			if (seperator)
