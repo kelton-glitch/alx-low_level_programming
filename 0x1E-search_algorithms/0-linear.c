@@ -1,4 +1,4 @@
-#include "search_algorithm.h"
+#include "search_algorithms.h"
 
 /**
  * linear_search - searches for a value in an array of integers using the Linear search algorithm
