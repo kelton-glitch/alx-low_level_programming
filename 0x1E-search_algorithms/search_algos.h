@@ -42,6 +42,11 @@ int jump_search(int *array, size_t size, int value);
  */
 int interpolation_search(int *array, size_t size, int value);
 
+/* Function that searches for a value in a sorted array of integers
+ * using advanced binary search algorithm 
+ */
+int advanced_binary(int *array, size_t size, int value);
+
 /* Function that searches for a value in a sorted array of integers 
  * using exponential search algorithm
  */

@@ -1,4 +1,4 @@
-#include "search_algorithms.h"
+#include "search_algos.h"
 /**
  * jump_search - searches for a value in a sorted array of integers using the Jump search algorithm
  * 
